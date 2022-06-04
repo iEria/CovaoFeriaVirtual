@@ -16,10 +16,10 @@
         <div class="row my-5 d-flex justify-content-center">
             <div class="col-6">
                 <div class="shadow-lg p-3 mb-5 bg-body rounded">
-                    <form action="./BL/login.php" method="post">
+                    <form action="../BL/Usuarios/UsuariosLogin.php" method="post">
                         <h3>Inicia sesión</h3>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" name="usuarios" placeholder="name@example.com">
+                            <input type="text" class="form-control" id="floatingInput" name="usuarios" placeholder="name@example.com">
                             <label for="floatingInput">Email address</label>
                         </div>
                         <div class="form-floating">
