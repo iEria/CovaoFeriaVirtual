@@ -31,7 +31,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="./img/Informatica.jpg" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+                <img src="./img/informatica.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Informática en DW</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
@@ -74,7 +74,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="./img/mante.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+                <img src="./img/mantenimiento.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mantenimiento Industrial</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
@@ -84,7 +84,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="./img/Accounting.jpg" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+                <img src="./img/Accounting.jpg.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Accounting</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
@@ -107,7 +107,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="./img/bilingualSecretary.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+                <img src="./img/bilingual.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Bilingual Secretary</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
