@@ -18,21 +18,8 @@
   <hr style="border: 5px solid #C1C1C1;" class="mt-12">
 
   <body>
-    
-    <div class="container">
-      <div class="row my-5 d-flex justify-content-center">
-            <div class="col-6">
-                <div class="shadow-lg p-3 mb-5 bg-body rounded">
-                    <p class="text-center">Feria Vocacional 2022</p>
-                    <p class="text-center">¿Estás listo para triunfar?</p>
-                    <div class="col-md-12 mx-auto text-center">
-                      <a href="avatar.php" class="btn btn-primary"">INICIAR</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    <h1>Hello, world!</h1>
+
     <br>
     <hr style="border: 5px solid #C1C1C1;" class="mt-12">
     <footer>
