@@ -35,7 +35,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Informática en DW</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="informatica.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Contabilidad y Finanzas</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="contabilidad.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Diseño Publicitario</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="diseno.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Electrónica Industrial</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="electro.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Mantenimiento Industrial</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="mante.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Accounting</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="accounting.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Mecánica Automotriz</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="automotriz.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Bilingual Secretary</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="secretariado.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Mecánica de Precisión</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
-                        <a href="#" class="btn btn-primary">Ingresar</a>
+                        <a href="precision.php" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
