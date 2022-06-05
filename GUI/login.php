@@ -18,7 +18,7 @@
           </div>
       </div>
   </header>
-  <hr style="border: 5px solid #c0c0c060;" class="mt-12">
+  <hr style="border: 5px solid #C1C1C1;" class="mt-12">
 
 <body>
     <br>
@@ -46,7 +46,7 @@
     </div>
 
     <br>
-    <hr style="border: 5px solid #c0c0c060;" class="mt-12">
+    <hr style="border: 5px solid #C1C1C1;" class="mt-12">
     <footer>
         <div class="col-md-12 mx-auto text-center">
             <p class="pl-5 text-right">Hospício de Huérfanos de Cartago ©2020-2022</p>
