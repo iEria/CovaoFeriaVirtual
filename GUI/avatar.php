@@ -8,7 +8,7 @@
     <link rel="manifest" href="../avatar/public/manifest.json">
   </head>
   
-  <header>
+  <header style="background-color: #27A4D0;">
       <div class="container">
           <div class="row">
             <a class=" pl-5 navbar-brand" href="#inicio">
@@ -16,15 +16,15 @@
             </a>
           </div>
       </div>
+      <hr style="border: 5px solid #0F4E9E;" class="mt-12">
   </header>
-  <hr style="border: 5px solid #C1C1C1;" class="mt-12">
 
   <body>
     <h1>Hello, world!</h1>
 
     <br>
-    <hr style="border: 5px solid #C1C1C1;" class="mt-12">
-    <footer>
+    <footer style="background-color: #27A4D0; color: white">
+    <hr style="border: 5px solid #0F4E9E;" class="mt-12">
         <div class="col-md-12 mx-auto text-center">
             <p class="pl-5 text-right">Hospício de Huérfanos de Cartago ©2020-2022</p>
             <p class="pl-5 text-right">IDS 2022</p>
