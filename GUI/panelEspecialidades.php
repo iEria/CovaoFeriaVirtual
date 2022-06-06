@@ -10,24 +10,72 @@
   <header style="background-color: #27A4D0;">
       <div class="container">
           <div class="row">
-            <a class=" pl-5 navbar-brand" href="#inicio">
-                <img src="./img/covaito2.png" class="img-fluid" alt="...">
-            </a>
+          <nav class="navbar fixed-top" style="background-color: #27A4D0;">
+            <div class="container-fluid">
+                <a class=" pl-5 navbar-brand" href="#">
+                    <img src="./img/covaito2.png" class="img-fluid" alt="...">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Especialidades</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="panelEspecialidades.php"><b>Inicio</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="informatica.php">Informática en Desarrollo Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contabilidad.php">Contabilidad y Finanzas</a>
+                    </li>
+                        <a class="nav-link active" aria-current="page" href="diseno.php">Diseño Publicitario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="electro.php">Electrónica Industrial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mante.php">Mantenimiento Industrial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="accounting.php">Accounting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="automotriz.php">Mecánica Automotriz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="secretariado.php">Bilingual Secretary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="precision.php">Mecánica de Precisión</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </nav>
           </div>
       </div>
-      <hr style="border: 5px solid #0F4E9E;" class="mt-12">
   </header>
 
+  <br><br><br><br>
   <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12 mx-auto text-center">
-                <h1>Especialidades</h1>
+                <!-- <h1>Especialidades</h1> -->
             </div>
         </div>
     </div>
     <br>
     <div class="container">
+    <h1 class="text-center">Especialidades</h1>
+    <br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card" style="width: 18rem;">
