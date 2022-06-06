@@ -44,7 +44,7 @@
           <div class="card" style="width: 18rem;">
             <img src="https://cdn-icons-png.flaticon.com/512/69/69544.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Videos</h5>
+                <h5 class="card-title">Información</h5>
                 <p class="card-text">Administrar la información mostrada</p>
                 <a href="contabilidad.php" class="btn btn-primary">Ingresar</a>
               </div>
@@ -55,7 +55,7 @@
             <img src="https://cdn-icons-png.flaticon.com/512/45/45315.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Enlaces</h5>
-                <p class="card-text">Administrar los videos mostrados</p>
+                <p class="card-text">Administrar los enlaces mostrados</p>
                 <a href="diseno.php" class="btn btn-primary">Ingresar</a>
               </div>
           </div>
