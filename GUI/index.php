@@ -26,7 +26,7 @@
                     <p class="text-center">Feria Vocacional 2022</p>
                     <p class="text-center">¿Estás listo para triunfar?</p>
                     <div class="col-md-12 mx-auto text-center">
-                    <a href="avatar.php" class="btn btn-primary"">INICIAR</a>
+                    <a href="especialidades.php" class="btn btn-primary"">INICIAR</a>
                     </div>
                 </div>
             </div>
