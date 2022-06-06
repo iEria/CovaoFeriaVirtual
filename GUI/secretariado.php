@@ -18,12 +18,15 @@
   </header>
 
   <body>
-  <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 mx-auto text-center">
                 <h1>Bilingual Secretary</h1>
             </div>
         </div>
+    </div>
+    <div class="container">
+      <a href="panelEspecialidades.php" class="btn btn-outline-danger">Volver</a>
     </div>
     <br><br>
     <div class="container">

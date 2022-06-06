@@ -25,6 +25,9 @@
             </div>
         </div>
     </div>
+    <div class="container">
+      <a href="panelEspecialidades.php" class="btn btn-outline-danger">Volver</a>
+    </div>
     <br><br>
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">

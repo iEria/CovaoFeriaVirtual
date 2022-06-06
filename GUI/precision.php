@@ -16,7 +16,6 @@
       </div>
       <hr style="border: 5px solid #0F4E9E;" class="mt-12">
   </header>
-
   <body>
   <div class="container">
         <div class="row">
@@ -24,6 +23,9 @@
                 <h1>Mecánica de Precisión</h1>
             </div>
         </div>
+    </div>
+    <div class="container">
+      <a href="panelEspecialidades.php" class="btn btn-outline-danger">Volver</a>
     </div>
     <br><br>
     <div class="container">
