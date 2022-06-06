@@ -38,6 +38,7 @@
                             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                             <label class="form-check-label" for="flexSwitchCheckDefault">Activado</label>
                         </div>
+                        <p>//aqui pones el link de cada video</p>
                         <p class="card-text">//Descripción del video</p>
                     </div>
                 </div>
@@ -50,6 +51,7 @@
                                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                                 <label class="form-check-label" for="flexSwitchCheckDefault">Activado</label>
                         </div>
+                        <p>//aqui pones el link de cada video</p>
                         <p class="card-text">//Descripción del video</p>
                     </div>
                 </div>
@@ -62,6 +64,7 @@
                             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                             <label class="form-check-label" for="flexSwitchCheckDefault">Activado</label>
                     </div>
+                    <p>//aqui pones el link de cada video</p>
                     <p class="card-text">//Descripción del video</p>
                 </div>
                 </div>
@@ -74,6 +77,7 @@
                             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                             <label class="form-check-label" for="flexSwitchCheckDefault">Activado</label>
                         </div>
+                    <p>//aqui pones el link de cada video</p>
                     <p class="card-text">//Descripción del video</p>
                 </div>
                 </div>
