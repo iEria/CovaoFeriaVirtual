@@ -20,7 +20,7 @@
   </header>
 
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Avatar</h1>
 
     <br>
     <footer style="background-color: #27A4D0; color: white">
