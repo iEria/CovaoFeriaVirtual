@@ -46,7 +46,7 @@
     </div>
 
     <br>
-    <footer style="background-color: #27A4D0; color: white">
+    <footer style="background-color: #27A4D0; color: white" class="footerall">
     <hr style="border: 5px solid #0F4E9E;" class="mt-12">
         <div class="col-md-12 mx-auto text-center">
             <p class="pl-5 text-right">Hospício de Huérfanos de Cartago ©2020-2022</p>
