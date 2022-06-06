@@ -117,7 +117,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="./img/mecanicaPrecision.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+                <img src="./img/mecanica de presición.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mecánica de Precisión</h5>
                         <p class="card-text">Administrar el contenido que se muestra: videos, enlaces e información.</p>
