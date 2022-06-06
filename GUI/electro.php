@@ -18,9 +18,49 @@
   </header>
 
   <body>
-    <h1>Hello, world!</h1>
-
-    <br>
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12 mx-auto text-center">
+                <h1>Electrónica Inudstrial</h1>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/84/84180.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Videos</h5>
+              <p class="card-text">Administrar los videos mostrados</p>
+              <a href="informatica.php" class="btn btn-primary">Ingresar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/69/69544.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Videos</h5>
+                <p class="card-text">Administrar la información mostrada</p>
+                <a href="contabilidad.php" class="btn btn-primary">Ingresar</a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/45/45315.png" style="width: 150px; height: 150px;" class="card-img-top rounded rounded mx-auto d-block" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Enlaces</h5>
+                <p class="card-text">Administrar los videos mostrados</p>
+                <a href="diseno.php" class="btn btn-primary">Ingresar</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <br><br><br>
     <footer style="background-color: #27A4D0; color: white">
     <hr style="border: 5px solid #0F4E9E;" class="mt-12">
         <div class="col-md-12 mx-auto text-center">
