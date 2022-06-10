@@ -89,24 +89,18 @@
         </div>
     </div>
     <br><br><br>
-    <footer style="background-color: #27A4D0; color: white">
-        <hr style="border: 5px solid #0F4E9E;" class="mt-12">
-        <div class="col-md-12 mx-auto text-center">
-            <p class="pl-5 text-right">Hospício de Huérfanos de Cartago ©2020-2022</p>
-            <p class="pl-5 text-right">IDS 2022</p>
-        </div>
-    </footer>
+
 
     <!--MODAL AGREGAR VIDEO-->
-    <div class="modal fade" id="modalAgregarVideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalAgregarVideo" tabindex="-1" aria-labelledby="modalAgregarVideo" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Agregar video</h5>
+                    <h5 class="modal-title" id="modalAgregarVideo">Agregar video</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <form method="post" action="../BL/Accounting/NuevoVideoAccBL.php">
+                    <form method="post" action="../BL/Accounting/NuevoVideoAccBL.php">
                         <div class="form-group mb-3">
                             <label for="txtDescripcion" class="col-form-label">Digite la descripción del video:</label>
                             <input type="text" id="txtDescripcion" name="txtDescripcion" required>
@@ -115,15 +109,24 @@
                             <label for="txtUrl" class="col-form-label">Inserte la url del video</label>
                             <input type="text" id="txtUrl" name="txtUrl" required>
                         </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary">Agregar</button>
-                </div>
+
             </div>
         </div>
     </div>
+    <footer style="background-color: #27A4D0; color: white">
+        <hr style="border: 5px solid #0F4E9E;" class="mt-12">
+        <div class="col-md-12 mx-auto text-center">
+            <p class="pl-5 text-right">Hospício de Huérfanos de Cartago ©2020-2022</p>
+            <p class="pl-5 text-right">IDS 2022</p>
+        </div>
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
