@@ -26,7 +26,7 @@
     </div>
     <div class="container">
       <a href="accounting.php" class="btn btn-outline-danger">Volver</a>
-      <button type="button" class="btn" style="background-color: #43B5A0; color: white;" data-toggle="modal" data-target="#modalAgregarVideo">Agregar video</button>
+      <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalDesactivarAdmin" data-bs-whatever="@mdo"><i class="fas fa-user-times"></i> Agregar Video</button>
 
     </div>
     <br><br>
@@ -95,27 +95,30 @@
         </div>
     </footer>  
 
-    <div class="modal" tabindex="-1" id="modalAgregarVideo">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Agregar video</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a>Escriba descripción del video</a>
-        <input type="text" class="form-control" name="txtDescripcion" id="txtDescripcion">
+        <!--MODAL AGREGAR VIDEO-->
+        <div class="modal fade" id="modalDesactivarAdmin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Agregar Video</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Ingrese el Cedula</label>
+                                            <input class="form-control" type="number" name="cedulabuscar" id="cedulabuscar" aria-label="default input example">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="submit" class="btn btn-primary">Desactivar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <a>Inserte url</a>
-        <input type="text" class="form-control" name="txtDescripcion" id="txtDescripcion">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" >Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
