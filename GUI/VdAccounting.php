@@ -28,13 +28,10 @@
         </div>
     </div>
     <div class="container">
-<<<<<<< HEAD
       <a href="accounting.php" class="btn btn-outline-danger">Volver</a>
       <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalDesactivarAdmin" data-bs-whatever="@mdo"><i class="fas fa-user-times"></i> Agregar Video</button>
-=======
         <a href="accounting.php" class="btn btn-outline-danger">Volver</a>
         <button type="button" class="btn" style="background-color: #43B5A0; color: white;" data-toggle="modal" data-target="#modalAgregarVideo">Agregar video</button>
->>>>>>> a919ddeb68c37836598f71543c22d2b99d5608c9
 
     </div>
     <br><br>
