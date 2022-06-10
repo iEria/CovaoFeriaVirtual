@@ -15,6 +15,6 @@
     if($videoDAL->NuevoVideo($video))
         header("Location: ../../GUI/VdAccounting.php");//ok
     else
-        header("Location: ../../GUI/VdAccounting.php"); //error
+        header("Location: ../../GUI/MenuPrincipal.php"); //error
 
 ?>
