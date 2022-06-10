@@ -8,11 +8,9 @@
     $videoDAL = new VideosDAL(); //DAL
 
     //Agarra los datos
-    $horario->setHoraInicio($_POST['txtHoraInicio']);
-    $horario->setHoraFinal($_POST['txtHoraFin']);
-    $horario->setAforo($_POST['txtAforo']);
-    $horario->setfecha($_POST['txtFecha']);
-
+    $video->setDescripcion($_POST['txtHoraInicio']);
+    $video->setLink($_POST['txtHoraFin']);
+    
     //Pasa los datos
     if($horarioDAL->NuevoHorario($horario))
         header("Location: ../../GUI/Horario.php");//ok
