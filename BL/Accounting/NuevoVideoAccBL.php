@@ -8,13 +8,13 @@
     $videoDAL = new VideosDAL(); //DAL
 
     //Agarra los datos
-    $video->setDescripcion($_POST['txtHoraInicio']);
-    $video->setLink($_POST['txtHoraFin']);
+    $video->setDescripcion($_POST['txtDescripcion']);
+    $video->setLink($_POST['txtUrl']);
     
     //Pasa los datos
-    if($horarioDAL->NuevoHorario($horario))
-        header("Location: ../../GUI/Horario.php");//ok
+    if($videoDAL->NuevoVideo($video))
+        header("Location: ../../GUI/VdAccounting.php");//ok
     else
-        header("Location: ../../GUI/Horario.php"); //error
+        header("Location: ../../GUI/VdAccounting.php"); //error
 
 ?>
