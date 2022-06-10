@@ -26,6 +26,7 @@
     </div>
     <div class="container">
       <a href="accounting.php" class="btn btn-outline-danger">Volver</a>
+      <a href="" class="btn btn-outline-danger">Agregar video</a>
     </div>
     <br><br>
     <div class="container">
