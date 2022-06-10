@@ -5,7 +5,7 @@ class VideosDAL
     {
         $estado = false;
         $conexion = new Conexion();
-        $sql = "INSERT INTO `VIDEOS`(`DESCRIPCION`, `LINK`) VALUES ('".$video->getDescripcion()."', '".$video->getLink()."'";
+        $sql = "INSERT INTO `VIDEOS`(`DESCRIPCION`, `LINK`) VALUES ('".$video->getDescripcion()."', '".$video->getLink()."')";
         if($conexion -> Ejecutar($sql))
         {
             $estado = true;
