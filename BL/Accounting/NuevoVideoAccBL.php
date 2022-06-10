@@ -4,8 +4,8 @@
     include '../../Entidades/Videos.php';
     include '../../DAL/VideosDAL.php';
 
-    $horario = new Cita(); //ENTIDAD
-    $horarioDAL = new CitasDAL(); //DAL
+    $video = new Videos(); //ENTIDAD
+    $videoDAL = new VideosDAL(); //DAL
 
     //Agarra los datos
     $horario->setHoraInicio($_POST['txtHoraInicio']);
