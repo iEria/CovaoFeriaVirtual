@@ -2,6 +2,7 @@
 
 class Videos
 {
+    //id
     private $id;
 
     /**
@@ -19,6 +20,8 @@ class Videos
     {
         $this->id = $id;
     }
+
+    //descripcion
     private $descripcion;
 
     /**
@@ -36,6 +39,8 @@ class Videos
     {
         $this->descripcion = $descripcion;
     }
+
+    //link
     private $link;
 
     /**
