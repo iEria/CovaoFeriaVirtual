@@ -13,9 +13,31 @@ class Conexion
             die('Error de conexion (' . mysqli_connect_errno() . ') ' . mysqli_connect_error());
         }
         $this->mysqli->autocommit(TRUE);
-        $resultado=$this->mysqli->query($query);
+        $resultado = $this->mysqli->query($query);
         return $resultado;
-    } 
+    }
+
+
+
+    //Conexión Mildred
+    /*
+
+    function Ejecutar($query)
+    {
+        $user = "root";
+        $pass = "1234";
+        $db = "feriavirtual";
+
+        if (!$this->mysqli = new mysqli('localhost', $user, $pass, $db)) {
+            die('Error de conexion (' . mysqli_connect_errno() . ') '
+                . mysqli_connect_error());
+        }
+
+        $this->mysqli->autocommit(TRUE);
+        $resultado = $this->mysqli->query($query);
+        return $resultado;
+    }
+    */
 
     function Cerrar()
     {
