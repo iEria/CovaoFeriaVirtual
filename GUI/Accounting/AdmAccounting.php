@@ -25,7 +25,7 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="AdmEspecialidades.php"><b>Inicio</b></a>
+                                    <a class="nav-link active" aria-current="page" href="AdmEspecialidades.php">Inicio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="../Informatica/AdmInformatica.php">Informática en Desarrollo Web</a>
@@ -42,7 +42,7 @@
                                     <a class="nav-link active" aria-current="page" href="../Mantenimiento/AdmMantenimiento.php">Mantenimiento Industrial</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../Accounting/AdmAccounting.php">Accounting</a>
+                                    <a class="nav-link active" aria-current="page" href="../Accounting/AdmAccounting.php"><b>Accounting</b></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="../Automotriz/AdmAutomotriz.php">Mecánica Automotriz</a>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="container">
-      <a href="panelEspecialidades.php" class="btn btn-outline-danger">Volver</a>
+      <a href="../AdmEspecialidades.php" class="btn btn-outline-danger">Volver</a>
     </div>
     <br><br>
     <div class="container">
@@ -83,7 +83,7 @@
             <div class="card-body">
               <h5 class="card-title">Videos</h5>
               <p class="card-text">Administrar los videos mostrados</p>
-              <a href="videosAccounting.php" class="btn btn-primary">Ingresar</a>
+              <a href="VdAccounting.php" class="btn btn-primary">Ingresar</a>
             </div>
           </div>
         </div>
