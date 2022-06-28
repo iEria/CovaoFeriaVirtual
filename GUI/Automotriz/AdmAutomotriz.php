@@ -45,7 +45,7 @@
                                     <a class="nav-link active" aria-current="page" href="../Accounting/AdmAccounting.php">Accounting</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../Automotriz/AdmAutomotriz.php"><b>Mecánica Automotriz</b></a>
+                                    <a class="nav-link active" aria-current="page" href="../Automotriz/AdmAutomotriz.php"><b>Mecánica Automotriz<</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="../Secretariado/AdmSecretariado.php">Bilingual Secretary</a>

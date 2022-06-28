@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <a class=" pl-5 navbar-brand" href="#inicio">
-                <img src="./img/covaito2.png" class="img-fluid" alt="...">
+                <img src="../img/covaito2.png" class="img-fluid" alt="...">
             </a>
         </div>
     </div>
@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="container">
-        <a href="accounting.php" class="btn btn-outline-danger">Volver</a>
+        <a href="AdmAccounting.php" class="btn btn-outline-danger">Volver</a>
         <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalAgregarVideo" data-bs-whatever="@mdo"><i class="fas fa-user-times"></i> Agregar Video</button>
     </div>
     <br><br>
@@ -100,7 +100,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form method="post" action="../BL/Accounting/NuevoVideoAccBL.php">
+                    <form method="post" action="..\..\BL\Accounting\NuevoVideoAccBL.php">
                         <div class="form-group mb-3">
                             <label for="txtDescripcion" class="col-form-label">Digite la descripción del video:</label>
                             <input type="text" id="txtDescripcion" name="txtDescripcion" required>
