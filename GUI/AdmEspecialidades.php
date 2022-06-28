@@ -26,7 +26,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="panelEspecialidades.php"><b>Inicio</b></a>
+                        <a class="nav-link active" aria-current="page" href="AdmEspecialidades.php"><b>Inicio</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="AdmInformatica.php">Informática en Desarrollo Web</a>
@@ -37,22 +37,22 @@
                         <a class="nav-link active" aria-current="page" href="AdmDiseno.php">Diseño Publicitario</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="electro.php">Electrónica Industrial</a>
+                        <a class="nav-link active" aria-current="page" href="AdmElectro.php">Electrónica Industrial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="mante.php">Mantenimiento Industrial</a>
+                        <a class="nav-link active" aria-current="page" href="AdmMantenimiento.php">Mantenimiento Industrial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="accounting.php">Accounting</a>
+                        <a class="nav-link active" aria-current="page" href="AdmAccounting.php">Accounting</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="automotriz.php">Mecánica Automotriz</a>
+                        <a class="nav-link active" aria-current="page" href="AdmAutomotriz.php">Mecánica Automotriz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="secretariado.php">Bilingual Secretary</a>
+                        <a class="nav-link active" aria-current="page" href="AdmSecretariado.php">Bilingual Secretary</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="precision.php">Mecánica de Precisión</a>
+                        <a class="nav-link active" aria-current="page" href="AdmPrecision.php">Mecánica de Precisión</a>
                     </li>
                     </ul>
                 </div>
