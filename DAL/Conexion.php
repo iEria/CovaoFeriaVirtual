@@ -3,7 +3,7 @@
 class Conexion
 {
     private $mysqli;
-
+    /*
     function Ejecutar($query) //Conexion a la base de datos 
     {
         $user = "root";
@@ -17,10 +17,11 @@ class Conexion
         return $resultado;
     }
 
+    */
 
 
     //Conexión Mildred
-    /*
+
 
     function Ejecutar($query)
     {
@@ -37,7 +38,6 @@ class Conexion
         $resultado = $this->mysqli->query($query);
         return $resultado;
     }
-    */
 
     function Cerrar()
     {

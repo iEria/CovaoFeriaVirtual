@@ -1,10 +1,10 @@
 <?php
 
 include "../DAL/Conexion.php";
-include "../Entidades/Usuario.php";
+include "../Entidades/UsuarioEnt.php";
 include "../DAL/UsuarioDAL.php";
 
-$usuario = new Usuario();
+$usuario = new UsuarioEnt();
 $usuarioDAL = new UsuarioDAL();
 
 $usuarios=$_POST['usuarios'];

@@ -30,11 +30,11 @@
                     <form action="../BL/UsuarioLogin.php" method="post">
                         <h3>Iniciar sesión</h3>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" name="usuarios" placeholder="name@example.com">
-                            <label for="floatingInput">Correo electrónico</label>
+                            <input type="text" class="form-control" id="txtCedula" name="txtCedula" placeholder="name@example.com">
+                            <label for="floatingInput">Cédula</label>
                         </div>
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword"  name="contrasena" placeholder="Password">
+                            <input type="password" class="form-control" id="txtContrasena"  name="txtContrasena" placeholder="Password">
                             <label for="floatingPassword">Contraseña</label>
                         </div>
                         <br>

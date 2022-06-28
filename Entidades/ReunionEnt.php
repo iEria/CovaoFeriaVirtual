@@ -1,44 +1,57 @@
 <?php
  
- class Informacion
+ class ReunionEnt
  {
-    private $id;
-    private $descripcion;
+    private $idReunion;
+    private $link;
+    private $idEspecialidad;
 
+     /**
+      * @return mixed
+      */
+     public function getIdReunion()
+     {
+         return $this->idReunion;
+     }
 
-      /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+     /**
+      * @param mixed $idReunion
+      */
+     public function setIdReunion($idReunion): void
+     {
+         $this->idReunion = $idReunion;
+     }
 
-    /**
-     * @param mixed $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
+     /**
+      * @return mixed
+      */
+     public function getLink()
+     {
+         return $this->link;
+     }
 
+     /**
+      * @param mixed $link
+      */
+     public function setLink($link): void
+     {
+         $this->link = $link;
+     }
 
+     /**
+      * @return mixed
+      */
+     public function getIdEspecialidad()
+     {
+         return $this->idEspecialidad;
+     }
 
-      /**
-     * @return mixed
-     */
-    public function getdescripcion()
-    {
-        return $this->descripcion;
-    }
-
-    /**
-     * @param mixed $id
-     */
-    public function setdescripcion($descripcion)
-    {
-        $this->id = $descripcion;
-    }
-
+     /**
+      * @param mixed $idEspecialidad
+      */
+     public function setIdEspecialidad($idEspecialidad): void
+     {
+         $this->idEspecialidad = $idEspecialidad;
+     }
  }
 

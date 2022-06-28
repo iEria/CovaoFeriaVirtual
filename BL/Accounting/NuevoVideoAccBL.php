@@ -1,10 +1,10 @@
 <?php
 
     include '../../DAL/Conexion.php';
-    include '../../Entidades/Videos.php';
+    include '../../Entidades/VideosEnt.php';
     include '../../DAL/VideosDAL.php';
 
-    $video = new Videos(); //ENTIDAD
+    $video = new VideosEnt(); //ENTIDAD
     $videoDAL = new VideosDAL(); //DAL
 
     //Agarra los datos

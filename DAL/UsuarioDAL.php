@@ -5,7 +5,7 @@ class UsuarioDAL
 
     function BuscarUsuario($id)
     {
-        $usuario = new Usuario();
+        $usuario = new UsuarioEnt();
         $conexion= new Conexion();
 
         $sql = "SELECT *  FROM `USUARIOS` WHERE `ID` = '$id'";
@@ -30,7 +30,7 @@ class UsuarioDAL
 
     function BuscarIniciarSesion($usuario,$contrasena)
     {
-        $usuarios = new Usuario();
+        $usuarios = new UsuarioEnt();
         $conexion= new Conexion();
 
         $sql = "SELECT *  FROM `USUARIOS` WHERE `NOMBRE` = '$usuario'";

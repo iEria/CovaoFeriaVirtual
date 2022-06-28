@@ -1,7 +1,7 @@
 <?php
 class VideosDAL
 {
-    function NuevoVideo(Videos $video)
+    function NuevoVideo(VideosEnt $video)
     {
         $estado = false;
         $conexion = new Conexion();

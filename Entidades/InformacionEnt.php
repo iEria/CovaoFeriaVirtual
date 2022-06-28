@@ -1,41 +1,41 @@
 <?php
 
-class VideosEnt
+class InformacionEnt
 {
-    private $idVideo;
-    private $link;
+    private $idInformacion;
+    private $descripcion;
     private $idEspecialidad;
 
     /**
      * @return mixed
      */
-    public function getIdVideo()
+    public function getIdInformacion()
     {
-        return $this->idVideo;
+        return $this->idInformacion;
     }
 
     /**
-     * @param mixed $idVideo
+     * @param mixed $idInformacion
      */
-    public function setIdVideo($idVideo): void
+    public function setIdInformacion($idInformacion): void
     {
-        $this->idVideo = $idVideo;
+        $this->idInformacion = $idInformacion;
     }
 
     /**
      * @return mixed
      */
-    public function getLink()
+    public function getDescripcion()
     {
-        return $this->link;
+        return $this->descripcion;
     }
 
     /**
-     * @param mixed $link
+     * @param mixed $descripcion
      */
-    public function setLink($link): void
+    public function setDescripcion($descripcion): void
     {
-        $this->link = $link;
+        $this->descripcion = $descripcion;
     }
 
     /**
