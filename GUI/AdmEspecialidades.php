@@ -29,12 +29,12 @@
                         <a class="nav-link active" aria-current="page" href="panelEspecialidades.php"><b>Inicio</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="informatica.php">Informática en Desarrollo Web</a>
+                        <a class="nav-link active" aria-current="page" href="AdmInformatica.php">Informática en Desarrollo Web</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contabilidad.php">Contabilidad y Finanzas</a>
+                        <a class="nav-link active" aria-current="page" href="AdmContabilidad.php">Contabilidad y Finanzas</a>
                     </li>
-                        <a class="nav-link active" aria-current="page" href="diseno.php">Diseño Publicitario</a>
+                        <a class="nav-link active" aria-current="page" href="AdmDiseno.php">Diseño Publicitario</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="electro.php">Electrónica Industrial</a>
