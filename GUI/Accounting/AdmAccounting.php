@@ -7,60 +7,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <header style="background-color: #27A4D0;">
-      <div class="container">
-          <div class="row">
-          <nav class="navbar fixed-top" style="background-color: #27A4D0;">
-            <div class="container-fluid">
-                <a class=" pl-5 navbar-brand" href="#">
-                    <img src="./img/covaito2.png" class="img-fluid" alt="...">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Especialidades</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar fixed-top" style="background-color: #27A4D0;">
+                <div class="container-fluid">
+                    <a class=" pl-5 navbar-brand" href="#">
+                        <img src="../img/covaito2.png" class="img-fluid" alt="...">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Especialidades</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="AdmEspecialidades.php"><b>Inicio</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Informatica/AdmInformatica.php">Informática en Desarrollo Web</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Contabilidad/AdmContabilidad.php">Contabilidad y Finanzas</a>
+                                </li>
+                                <a class="nav-link active" aria-current="page" href="../Diseno/AdmDiseno.php">Diseño Publicitario</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Electronica/AdmElectro.php">Electrónica Industrial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Mantenimiento/AdmMantenimiento.php">Mantenimiento Industrial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Accounting/AdmAccounting.php">Accounting</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Automotriz/AdmAutomotriz.php">Mecánica Automotriz</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Secretariado/AdmSecretariado.php">Bilingual Secretary</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../Precision/AdmPrecision.php">Mecánica de Precisión</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="panelEspecialidades.php"><b>Inicio</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="informatica.php">Informática en Desarrollo Web</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contabilidad.php">Contabilidad y Finanzas</a>
-                    </li>
-                        <a class="nav-link active" aria-current="page" href="diseno.php">Diseño Publicitario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="electro.php">Electrónica Industrial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="mante.php">Mantenimiento Industrial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="accounting.php">Accounting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="automotriz.php">Mecánica Automotriz</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="secretariado.php">Bilingual Secretary</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="precision.php">Mecánica de Precisión</a>
-                    </li>
-                    </ul>
                 </div>
-            </div>
-            </div>
             </nav>
-          </div>
-      </div>
-  </header>
+        </div>
+    </div>
+</header>
 
   <br><br><br><br><br>
   <body>
