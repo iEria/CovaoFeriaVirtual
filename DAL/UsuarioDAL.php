@@ -2,7 +2,7 @@
 
 class UsuarioDAL
 {
-
+/*
     function BuscarUsuario($id)
     {
         $usuario = new UsuarioEnt();
@@ -27,40 +27,29 @@ class UsuarioDAL
         $conexion->Cerrar();
         return $usuario;
     }
+    */
 
-    function BuscarIniciarSesion($usuario,$contrasena)
+    function InicioSesion(UsuarioEnt $usuario)
     {
-        $usuarios = new UsuarioEnt();
-        $conexion= new Conexion();
+        $conexion = new Conexion();
+        $sql = "SELECT u.* FROM USUARIO u WHERE u.CEDULA = '".$usuario->getCedula()."' AND u.CONTRASENA = '".$usuario->getContrasena()."' ";
 
-        $sql = "SELECT *  FROM `USUARIOS` WHERE `NOMBRE` = '$usuario'";
-        echo $sql;
-        $resultado=$conexion->Ejecutar($sql);
-
-        if(mysqli_num_rows($resultado)>0)
-        {
-            while ($fila = $resultado->fetch_assoc())
-            {
-                $usuarios->setId($fila["ID"]);
-                $usuarios->setnombre($fila["NOMBRE"]);
-                $usuarios->setncontrasena($fila["CONTRASENA"]);
-                
-                if($contrasena==$usuarios->getcontrasena())
-                {
-                    $usuarios=true;
-                }else
-                {
-                    $usuarios=null;
-                }
-            
+        $resultado = $conexion->Ejecutar($sql);
+        if (mysqli_num_rows($resultado) > 0) {
+            $data = array();
+            while ($fila = mysqli_fetch_assoc($resultado)) {
+                $data[] = $fila;
             }
+
+            header('Content-Type: application/json');
+            return json_encode($data);
         }
         else
         {
-           $usuarios=null;
+            $data=null;
         }
         $conexion->Cerrar();
-        return $usuarios;
+        return $data;
     }
 
    

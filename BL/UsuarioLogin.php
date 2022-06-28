@@ -7,13 +7,14 @@ include "../DAL/UsuarioDAL.php";
 $usuario = new UsuarioEnt();
 $usuarioDAL = new UsuarioDAL();
 
-$usuarios=$_POST['usuarios'];
-$contrasena=$_POST['contrasena'];
+//Agarra los datos
+$usuario->setCedula($_POST['txtCedula']);
+$usuario->setContrasena($_POST['txtContrasena']);
 
-if($usuarioDAL->BuscarIniciarSesion($usuarios,$contrasena)
-)
+
+if($usuarioDAL->InicioSesion($usuario)) 
 {
-    header("Location: ../GUI/panelEspecialidades.php");
+    header("Location: ../GUI/AdmEspecialidades.php");
 }
 else
 {
