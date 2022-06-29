@@ -41,3 +41,6 @@ CREATE TABLE USUARIO
     CORREO VARCHAR (200) NOT NULL,
     CONTRASENA VARCHAR(200) NOT NULL
 )
+
+INSERT INTO especialidad (IDESPECIALIDAD, NOMBRE)
+VALUES (1, 'Informatica'), (2, 'Contabilidad'), (3, 'Diseño'), (4, 'Electronica'), (5, 'Mantenimiento'), (6, 'Accounting'), (7, 'Automotriz'), (8, 'Secretariado'), (9, 'Precisión');
