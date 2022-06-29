@@ -102,10 +102,6 @@
                 <div class="modal-body">
                     <form method="post" action="..\..\BL\Accounting\NuevoVideoAccBL.php">
                         <div class="form-group mb-3">
-                            <label for="txtDescripcion" class="col-form-label">Digite la descripción del video:</label>
-                            <input type="text" id="txtDescripcion" name="txtDescripcion" required>
-                        </div>
-                        <div class="form-group mb-3">
                             <label for="txtUrl" class="col-form-label">Inserte la url del video</label>
                             <input type="text" id="txtUrl" name="txtUrl" required>
                         </div>
